@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<!--    Стили к заданию 3 (карточки по з вряд)-->
+<!--    <style>-->
+<!--        .row {-->
+<!--            display: flex;-->
+<!--            gap: 10px;-->
+<!--            margin-bottom: 10px;-->
+<!--        }-->
+
+<!--        .card {-->
+<!--            border: 1px solid #ccc;-->
+<!--            padding: 15px;-->
+<!--            background-color: #f9f9f9;-->
+<!--            flex: 1;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--    </style>-->
+</head>
+<body>
+<!--     <h2>Задание1: Фрукты </h2>-->
+<!--    <ol>-->
+<!--        {% for fruit in fruits %}-->
+<!--            <li>{{ fruit }}</li>-->
+<!--        {% empty %}-->
+
+<!--            <p>Фруктов нет</p>-->
+<!--        {% endfor %}-->
+<!--    </ol>-->
+
+<!--    <h2>Задания 2: Таблица умножения 9x9 </h2>-->
+
+<!--    <table>-->
+<!--        &lt;!&ndash; Первый цикл: берем одну строку (row) из таблицы &ndash;&gt;-->
+<!--        {% for row in table %}-->
+<!--        <tr>-->
+<!--            &lt;!&ndash; Второй цикл: берем одно число (cell) из этой строки &ndash;&gt;-->
+<!--            {% for cell in row %}-->
+<!--                <td>{{ cell }}</td>-->
+<!--            {% endfor %}-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Задание 3: Карточки по 3 в ряд</h2>-->
+<!--    <div class="row">-->
+<!--        {% for fruit in fruits %}-->
+<!--            <div class="card">{{ fruit }}</div>-->
+<!--            {% if forloop.counter|divisibleby:3 and not forloop.last %}-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--            {% endif %}-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+
